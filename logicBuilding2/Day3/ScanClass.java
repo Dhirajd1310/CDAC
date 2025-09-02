@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class ScanClass
+{
+	public static void main(String[]args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your Name:");
+		String name = sc.nextLine();
+		System.out.println("Enter your Age:");
+		int age = sc.nextInt();
+		System.out.println("Enter your Height:");
+		int height = sc.nextInt();
+		System.out.println("Hello,"+name+"  my age is,"+age +" and my Height is,"+height+"cm.");
+	}
+}
