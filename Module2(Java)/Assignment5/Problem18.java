@@ -1,0 +1,17 @@
+import java.util.*;
+
+class Problem18{
+	public static void main(String[]args){
+		Set<String> studentMorning = new LinkedHashSet<>();
+		
+		studentMorning.add("Amit");
+		studentMorning.add("Priya");
+		
+		Set<String> studentEvening = new LinkedHashSet<>(studentMorning);
+		
+		studentEvening.add("Rohan");
+		studentEvening.add("Priya");
+		
+		System.out.println("Combined Batches:"+studentEvening);
+	}
+}
