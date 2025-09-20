@@ -1,0 +1,2 @@
+class ArrayDemo4{
+}
